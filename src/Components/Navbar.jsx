@@ -17,7 +17,7 @@ function Navbar() {
         <svg   stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="40px" width="40px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"></path></svg>}
 </button>
 
-<ul className={`absolute duration-500 ease-in-out ${toggle ? "left-0" : "left-[900px] md:left-[1000px] lg:hidden "}   py-2  flex flex-col space-y-4  rounded-lg pl-4 top-[50px] bg-gray-500 border-black border-2 border-dotted text-white font-semibold   w-full h-auto text-2xl capitalize`}>
+<ul className={`absolute duration-500 ease-in-out ${toggle ? "left-0" : "left-[900px] md:left-[1000px] lg:hidden "}   p-6  flex flex-col space-y-4  rounded-lg   top-[50px] bg-gray-500 border-black border-2 border-dotted text-white font-semibold   w-full h-auto text-2xl capitalize`}>
             <li>about</li>
             <li>experiences</li>
             <li>projects</li>
