@@ -7,19 +7,19 @@ function Hero() {
     <div    className='max-w-screen   flex flex-col lg:flex-row mt-[11dvh] lg:gap-[4rem] items-center md:mt-[5rem] lg:mt-[8rem] justify-center  '  >
       <div className='flex flex-col space-y-4 my-2 lg:order-1 ' >
         <div className='block text-center items-center space-y-[-3vw]  md:space-y-[-2vw] lg:space-y-3 lg:mb-3'>
-          <h2 className='text-3xl lg:text-5xl font-bold capitalize'>hello, im</h2>
+          <h2 className='text-3xl  font-bold capitalize md:text-4xl lg:text-3xl'>hello, im</h2>
           <h2 className='  font-bold text-[12vw] md:text-[9vw] lg:text-5xl'>Hosni Doe</h2>
           <h2 className='  text-gray-500 font-bold capitalize md:text-[8vw]  text-[9vw] lg:text-5xl'>full stack engineer</h2>
         </div>
 
-        <div className='grid grid-cols-2 md:gap-x-7 md:px-6 gap-x-4 '>
-          <button  onClick={()=>window.open('/files/hosni_tarik_.pdf', '_blank')} className='border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in bg-white text-gray-500 border-2 rounded-full border-solid  px-[4vw] py-2 font-semibold'><a 
+        <div className='grid grid-cols-2 md:gap-x-7 md:px-8 gap-x-4 md:text-xl'>
+          <button  onClick={()=>window.open('/files/hosni_tarik_.pdf', '_blank')} className='border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in bg-white text-gray-500 border-2 rounded-full border-solid  px-[4vw] py-2 font-bold'><a 
     href="/files/hosni_tarik_.pdf" 
     target="_blank" 
     download="hosni_tarik_.pdf"
     className="block w-full h-full text-inherit no-underline"
   >Download CV</a></button>
-          <button className='bg-gray-500 hover:bg-white hover:border-gray-500 hover:border-solid hover:border-2 hover:text-gray-500 transition ease-in  rounded-full text-white px-[4vw]  py-2 font-semibold'>Contact Info</button>
+          <button className='bg-gray-500 hover:bg-white hover:border-gray-500 hover:border-solid hover:border-2 hover:text-gray-500 transition ease-in  rounded-full text-white px-[4vw]  py-2 font-bold'>Contact Info</button>
         </div>
 
         <div className='flex justify-center  items-center space-x-4 '>

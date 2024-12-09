@@ -6,6 +6,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Experience from './Components/Experience'
 import Projects from './Components/Projects'
+import Contact from './Components/Contact'
 
 
 
@@ -15,37 +16,47 @@ import Projects from './Components/Projects'
 
 function App() {
   return (
-  <div className=" max-w-[80%] h-auto m-auto flex flex-col space-y-20 py-8">
+    <div className='max-w-screen min-h-screen overflow-x-hidden'>
+      <div className=" max-w-[80%]  h-auto m-auto flex flex-col space-y-20  py-8 ">
 
- 
-      {/* Section 1 */}
-      <section className="lg:h-screen  ">
-        <Navbar/>
-        <Hero/>
-      </section>
 
-      {/* Section 2 */}
-      <section id='about' className="lg:h-screen lg:scroll-m-[-3rem] scroll-m-0 xl:scroll-m-0">
-        <About/>
-      </section>
+        {/* Section 1 */}
+        <section className="lg:h-screen  ">
+          <Navbar />
+          <Hero />
+        </section>
 
-      {/* Section 3 */}
-      <section id='experiences' className="lg:h-screen  scroll-m-0 lg:scroll-m-[-6rem] xl:scroll-m-0">
-       <Experience/>
-      </section>
+        {/* Section 2 */}
+        <section id='about' className="lg:h-screen  scroll-m-0 xl:scroll-m-[-3rem] ">
+          <About />
+        </section>
 
-      {/* Section 4 */}
-      <section id='projects' className="lg:h-screen scroll-m-0 lg:scroll-m-[-10rem] xl:scroll-m-0">
-        <Projects/>
-      </section>
+        {/* Section 3 */}
+        <section id='experiences' className="lg:h-screen  scroll-m-0   xl:scroll-m-[-6rem]">
+          <Experience />
+        </section>
 
-      {/* Section 5 */}
-      <section id='contact' className="h-screen scroll-m-0 lg:scroll-m-[-10rem] xl:scroll-m-0 bg-purple-500">
-        <h1 className="text-white text-4xl">Section 5</h1>
-      </section>
- 
-     
-  </div>
+        {/* Section 4 */}
+        <section id='projects' className="min-h-screen  xl:scroll-m-[-9rem]">
+          <Projects />
+        </section>
+
+        {/* Section 5 */}
+        <section id='contact' className="lg:h-screen    ">
+          <h1 className='capitalize text-xl text-center text-gray-500'>get in touch</h1>
+          <h1 className='text-6xl font-semibold text-center  mb-14 pt-4'>Contact me</h1>
+          <Contact/>
+          <footer className='text-center mt-7 font-semibold'>Copyright &copy; {new Date().getFullYear()} All rights reserved</footer>
+          
+        </section>
+
+        
+
+
+      </div>
+
+    </div>
+
   )
 }
 
