@@ -43,14 +43,16 @@ function App() {
 
         {/* Section 5 */}
         <section id='contact' className="lg:h-screen    ">
-          <h1 className='capitalize text-xl text-center text-gray-500'>get in touch</h1>
-          <h1 className='text-6xl font-semibold text-center  mb-14 pt-4'>Contact me</h1>
-          <Contact/>
+          <div className='text-center mb-9 flex flex-col  '>
+            <h1 className='capitalize text-xl text-center text-gray-500'>get in touch</h1>
+            <h1 className='text-5xl font-semibold text-center capitalize '>Contact me</h1>
+          </div>
+          <Contact />
           <footer className='text-center mt-7 font-semibold'>Copyright &copy; {new Date().getFullYear()} All rights reserved</footer>
-          
+
         </section>
 
-        
+
 
 
       </div>

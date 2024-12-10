@@ -17,10 +17,11 @@ function Contact() {
           is right for you.
         </p>
 
-        <div className="mt-8">
+        <div className="mt-8 font-semibold">
           <a href="#" className="text-2xl font-bold text-pink-600"> 0151 475 4450 </a>
 
-          <address className="mt-2 not-italic">282 Kevin Brook, Imogeneborough, CA 58517</address>
+          <address className="my-2 not-italic">Casablanca , Morocco</address>
+          <h1>hosnidotech@gmail.com</h1>
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import avatar from "../assets/man.jpeg"
+import me from "../assets/me.jpg"
 
 
 function About() {
@@ -41,7 +42,9 @@ function About() {
 
                     </div>
 
-                    <p  className=' text-center md:text-left md:pl-1 lg:text-left max-w-screen h-auto lg:pl-1  font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum sit at nisi, quis consequuntur distinctio repellendus aperiam ab, deleniti expedita et eos exercitationem ex, mollitia enim minima incidunt. Amet perferendis eius voluptates explicabo, deleniti cupiditate nobis! Debitis, iusto rerum!</p>
+                    <p  className=' text-center md:text-left md:pl-1 lg:text-left max-w-screen h-auto lg:pl-1  font-semibold'>I am a computer engineer, recently graduated from EMSI Casablanca, with a specialization in fullstack development and expertise in web application design and microservices architecture. I master technologies such as React.js, TypeScript, Spring Boot, MongoDB, and many others.
+
+Passionate about innovation and motivated by challenges, I particularly enjoy solving complex problems and working in dynamic teams.</p>
                 </div>
 
                 <div className='max-w-screen   lg:right-0  md:h-full  rounded-3xl lg:max-w-1/3 xl:max-w-1/3   md:max-w-full'>

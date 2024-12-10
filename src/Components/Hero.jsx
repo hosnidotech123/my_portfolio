@@ -1,5 +1,7 @@
 import React from 'react'
 import avatar from "../assets/man.jpeg"
+import me from "../assets/me.jpg"
+
 
 function Hero() {
 
