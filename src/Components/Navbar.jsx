@@ -5,11 +5,11 @@ function Navbar() {
   let [toggle, setToggle] = useState(false)
 
   return (
-    <div className='relative flex items-center justify-between   '>
-      <h2  className='font-bold text-3xl'><a href="/">Hosni Doe</a></h2>
+    <div className='relative flex items-center justify-between   ' >
+      <h2 className='font-bold text-3xl'><a href="/">Hosni Doe</a></h2>
       <ul className='hidden lg:grid lg:grid-flow-col lg:items-center font-semibold lg:gap-x-8 text-2xl capitalize'>
         <li><a href="#about">about</a></li>
-        <li><a href="#experiences">Technologies</a></li>
+        <li><a href="#experiences">Experience</a></li>
         <li><a href="#projects">projects</a></li>
         <li className='bg-slate-500 px-4 text-white  py-1 rounded-xl hover:bg-slate-400 transition ease-in-out duration-500'><a href="#contact">contact</a></li>
       </ul>
@@ -17,11 +17,11 @@ function Navbar() {
         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="40px" width="40px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"></path></svg>}
       </button>
 
-      <ul className={`absolute duration-500 ease-in-out ${toggle ? "left-0" : "left-[900px] md:left-[1000px] lg:hidden "}   p-6  flex flex-col space-y-4  rounded-lg   top-[50px] bg-gray-500 border-black border-2 border-dotted text-white font-semibold   w-full h-auto text-2xl capitalize`}>
-      <li><a href="#about">about</a></li>
-        <li><a href="#experiences">Technologies</a></li>
-        <li><a href="#projects">projects</a></li>
-        <li ><a className='text-slate-500 px-4 bg-white  py-1 rounded-xl' href="#contact">contact</a></li>
+      <ul className={`absolute duration-300 ease-in-out ${toggle ? "left-0" : "left-[900px] md:left-[1000px] lg:hidden "}   p-6  flex flex-col space-y-4  rounded-lg   top-[50px] bg-gray-500 border-black border-2 border-dotted text-white font-semibold   w-full h-auto text-2xl capitalize`}>
+        <li onClick={()=>setToggle(false)}><a href="#about">about</a></li>
+        <li onClick={()=>setToggle(false)}><a href="#experiences">Experience</a></li>
+        <li onClick={()=>setToggle(false)}><a href="#projects">projects</a></li>
+        <li onClick={()=>setToggle(false)}><a className='text-slate-500 px-4 bg-white  py-1 rounded-xl' href="#contact">contact</a></li>
       </ul>
 
     </div>

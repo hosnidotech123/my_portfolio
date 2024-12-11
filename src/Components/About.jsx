@@ -47,8 +47,8 @@ function About() {
 Passionate about innovation and motivated by challenges, I particularly enjoy solving complex problems and working in dynamic teams.</p>
                 </div>
 
-                <div className='max-w-screen   lg:right-0  md:h-full  rounded-3xl lg:max-w-1/3 xl:max-w-1/3   md:max-w-full'>
-                  <img className='w-full object-cover rounded-3xl h-full ' src={avatar} alt="..." />
+                <div className='max-w-screen   lg:right-0  md:h-full overflow-hidden rounded-3xl lg:max-w-1/3 xl:max-w-1/3   md:max-w-full'>
+                  <img className='w-full object-cover hover:scale-[1.2] transition-all ease-out  rounded-3xl h-full ' src={avatar} alt="..." />
                 </div>
 
             </div>

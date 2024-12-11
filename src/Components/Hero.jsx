@@ -34,8 +34,8 @@ function Hero() {
 
 
 
-      <div className='max-w-screen   lg:right-0 p-[1rem] lg:p-0 rounded-full lg:w-[400px] lg:h-[400px] '>
-        <img className='w-full object-cover rounded-full h-full ' src={avatar} alt="..." />
+      <div className='max-w-screen overflow-hidden   lg:right-0 p-[1rem] lg:p-0 rounded-full lg:w-[400px] lg:h-[400px] '>
+        <img className='w-full object-cover hover:scale-[1.2] transition-all ease-out rounded-full h-full ' src={avatar} alt="..." />
       </div>
 
 
