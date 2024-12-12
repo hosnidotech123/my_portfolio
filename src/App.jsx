@@ -33,8 +33,8 @@ function App() {
 
    },[])
   return (
-    <div className='max-w-screen min-h-screen overflow-x-hidden relative' id='up'>
-       <a href="#up">      <span  className={`fixed z-40  right-2 bottom-2   ${display?"transition-all ease-in-out duration-500":"hidden"} `}><svg className='w-[50px] h-[50px] md:h-[60px] md:w-[60px]' stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 270.63-96-96-96 96L137.37 296 256 177.37 374.63 296z"></path></svg></span>
+    <div className='max-w-screen min-h-screen overflow-x-hidden relative' id=''>
+       <a href="#">      <span  className={`fixed z-40  right-2 bottom-2   ${display?"transition-all ease-in-out duration-500":"hidden"} `}><svg className='w-[50px] h-[50px] md:h-[60px] md:w-[60px]' stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 270.63-96-96-96 96L137.37 296 256 177.37 374.63 296z"></path></svg></span>
 </a>
       <div className=" max-w-[80%]  h-auto m-auto flex flex-col space-y-20  py-8 ">
 
@@ -49,17 +49,17 @@ function App() {
         </section>
 
         {/* Section 2 */}
-        <section id='about' className="lg:h-screen  scroll-m-0 xl:scroll-m-[-3rem] ">
+        <section id='about' className="lg:h-screen  scroll-m-0 xl:scroll-m-[-3rem]  2xl:scroll-m-0">
           <About />
         </section>
 
         {/* Section 3 */}
-        <section id='experiences' className="lg:h-screen  scroll-m-0   xl:scroll-m-[-6rem]">
+        <section id='experiences' className="lg:h-screen  scroll-m-0   xl:scroll-m-[-6rem] 2xl:scroll-m-0">
           <Experience />
         </section>
 
         {/* Section 4 */}
-        <section id='projects' className="min-h-screen  xl:scroll-m-[-9rem]">
+        <section id='projects' className="min-h-screen  xl:scroll-m-[-9rem] 2xl:scroll-m-0">
           <Projects />
         </section>
 

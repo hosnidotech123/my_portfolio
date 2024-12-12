@@ -1,6 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Contact() {
+
+  let [name,setName]=useState("")
+  let [email,setEmail]=useState("")
+  let [phone,setPhone]=useState("")
+  let [message,setMessage]=useState("")
+
+
+
+  let handleForm=(e)=>{
+    e.preventDefault()
+    alert(`${name} ${email} ${phone} ${message}`)
+    setMessage("")
+    setPhone("")
+    setEmail("")
+    setName("")
+  }
+
   return (
 
 
@@ -18,22 +35,25 @@ function Contact() {
             </p>
 
             <div className="mt-8 font-semibold">
-              <a href="#" className="text-2xl font-bold text-pink-600"> 0151 475 4450 </a>
+              <a href="#" className="text-2xl font-bold text-pink-600">06 06 06 06 06</a>
 
-              <address className="my-2 not-italic">Casablanca , Morocco</address>
-              <h1>hosnidotech@gmail.com</h1>
+              <address className="my-2 not-italic text-lg uppercase">Casablanca , Morocco</address>
+              <a href="mailto:hosnidotech@gmail.com" target="_blank"><h1 className='text-lg '>hosnidotech@gmail.com</h1></a>
             </div>
           </div>
 
           <div className="rounded-lg bg-gray-100  p-8 shadow-lg lg:col-span-3 lg:p-12">
-            <form action="#" className="space-y-4">
+            <form onSubmit={handleForm} className="space-y-4">
               <div>
                 <label className="sr-only" htmlFor="name">Name</label>
                 <input
+                  required
                   className="w-full rounded-lg border-2 border-solid border-gray-500 p-3 text-sm"
                   placeholder="Name"
                   type="text"
                   id="name"
+                  value={name}
+                  onChange={(e)=>setName(e.target.value)}
                 />
               </div>
 
@@ -41,20 +61,26 @@ function Contact() {
                 <div>
                   <label className="sr-only" htmlFor="email">Email</label>
                   <input
+                    required
                     className="w-full rounded-lg border-2 border-solid border-gray-500 p-3 text-sm"
                     placeholder="Email address"
                     type="email"
                     id="email"
+                    value={email}
+                  onChange={(e)=>setEmail(e.target.value)}
                   />
                 </div>
 
                 <div>
                   <label className="sr-only" htmlFor="phone">Phone</label>
                   <input
+                    required
                     className="w-full rounded-lg border-2 border-solid border-gray-500 p-3 text-sm"
                     placeholder="Phone Number"
                     type="tel"
                     id="phone"
+                    value={phone}
+                  onChange={(e)=>setPhone(e.target.value)}
                   />
                 </div>
               </div>
@@ -69,6 +95,8 @@ function Contact() {
                   placeholder="Message"
                   rows="8"
                   id="message"
+                  value={message}
+                  onChange={(e)=>setMessage(e.target.value)}
                 ></textarea>
               </div>
 
