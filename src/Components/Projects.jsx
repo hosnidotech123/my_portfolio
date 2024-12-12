@@ -15,10 +15,10 @@ function Projects() {
                 <h1 className='capitalize text-xl text-center text-gray-500'>browse my recent</h1>
                 <h1 className='text-6xl font-semibold text-center capitalize mb-9'>projects</h1>
             </div>
-            <div className='max-w-screen h-auto grid grid-flow-row gap-8  md:grid-cols-2  lg:px-[7rem] lg:gap-y-9 xl:px-[10rem] xl:gap-x-9 '>
+            <div className='max-w-screen h-auto grid grid-flow-row gap-8  md:grid-cols-2  lg:px-[7rem] lg:gap-y-9 xl:px-[8rem]  xl:gap-x-14  '>
                 {/* Porject 1 */}
                 <div className='max-w-screen py-6 space-y-3  border-gray-500  border-2  px-[6vw] md:px-5 rounded-3xl border-solid h-auto grid grid-flow-row'>
-                    <div className='max-w-screen h-[35vh] md:h-[30vh] '>
+                    <div className='max-w-screen h-[35vh] md:h-[280px] '>
                         <img className='rounded-2xl w-full h-full' src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     </div>
                     <h1 className='text-center font-bold text-3xl'>Project one</h1>
@@ -46,7 +46,7 @@ function Projects() {
                 </div>
 
                 <div className='max-w-screen py-6 space-y-3 md:px-5  border-gray-500  border-2  px-[6vw] rounded-3xl border-solid h-auto grid grid-flow-row'>
-                    <div className='max-w-screen h-[35vh] md:h-[30vh] '>
+                    <div className='max-w-screen h-[35vh] md:h-[280px] '>
                         <img className='rounded-2xl w-full h-full' src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     </div>
                     <h1 className='text-center font-bold text-3xl'>Project one</h1>
@@ -74,7 +74,7 @@ function Projects() {
                 </div>
 
                 <div className='max-w-screen py-6 space-y-3 md:px-5 border-gray-500  border-2  px-[6vw] rounded-3xl border-solid h-auto grid grid-flow-row'>
-                    <div className='max-w-screen h-[35vh] md:h-[30vh] '>
+                    <div className='max-w-screen h-[35vh] md:h-[280px] '>
                         <img className='rounded-2xl w-full h-full' src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     </div>
                     <h1 className='text-center font-bold text-3xl'>Project one</h1>
@@ -102,7 +102,7 @@ function Projects() {
                 </div>
 
                 <div className='max-w-screen py-6 space-y-3 md:px-5 border-gray-500  border-2  px-[6vw] rounded-3xl border-solid h-auto grid grid-flow-row'>
-                    <div className='max-w-screen h-[35vh] md:h-[30vh] '>
+                    <div className='max-w-screen h-[35vh] md:h-[280px] '>
                         <img className='rounded-2xl w-full h-full' src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     </div>
                     <h1 className='text-center font-bold text-3xl'>Project one</h1>

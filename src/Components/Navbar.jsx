@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <div className='relative flex items-center justify-between  font-RobotoCondensed ' >
-      <h2 className='font-valorax text-[2.20rem]  content md:text-[2.40rem]'><a href="/">Hosni<span className='font-bold '>.</span>tech</a></h2>
+      <h2 className='font-valorax text-3xl  content md:text-[2.40rem]'><a href="/">Hosni<span className='font-bold '>.</span>tech</a></h2>
       <ul className='hidden font-RobotoCondensed lg:grid lg:grid-flow-col lg:items-center font-semibold lg:gap-x-8 text-2xl capitalize'>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#about">about</a></li>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#experiences">Experience</a></li>

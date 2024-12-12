@@ -9,7 +9,7 @@ function Hero() {
     <div    className='max-w-screen   flex flex-col lg:flex-row mt-[11dvh] lg:gap-[4rem] items-center md:mt-[5rem] lg:mt-[8rem] justify-center  '  >
       <div className='flex flex-col space-y-4 my-2 lg:order-1 ' >
         <div className='block text-center items-center space-y-[-2vw]  md:space-y-[-2vw] lg:space-y-3 lg:mb-3'>
-          <h2 className='text-3xl  font-bold capitalize md:text-4xl lg:text-3xl'>hello, im</h2>
+          <h2 className='text-3xl  font-bold capitalize md:text-4xl lg:text-3xl text-gray-500'>hello, im</h2>
           <h2 className='  font-bold text-[12vw] md:text-[9vw] lg:text-5xl'>Hosni TariQ</h2>
           <h2 className='  text-gray-500 font-bold capitalize md:text-[8vw]  text-[9vw] lg:text-5xl'>full stack engineer</h2>
         </div>
