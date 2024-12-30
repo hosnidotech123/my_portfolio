@@ -5,9 +5,9 @@ function Navbar() {
   let [toggle, setToggle] = useState(false)
 
   return (
-    <div className='relative flex items-center justify-between  font-RobotoCondensed ' >
+    <div className='relative flex items-center justify-between  font-RobotoCondensed uppercase' >
       <h2 className='font-valorax text-3xl  content md:text-[2.40rem]'><a href="/">Hosni<span className='font-bold '>.</span>tech</a></h2>
-      <ul className='hidden font-RobotoCondensed lg:grid lg:grid-flow-col lg:items-center font-semibold lg:gap-x-8 text-2xl capitalize'>
+      <ul className='hidden font-RobotoCondensed lg:grid lg:grid-flow-col lg:items-center font-semibold lg:gap-x-8 text-2xl '>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#about">about</a></li>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#experiences">Experience</a></li>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#projects">projects</a></li>
@@ -17,11 +17,11 @@ function Navbar() {
         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="40px" width="40px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"></path></svg>}
       </button>
 
-      <ul className={`absolute duration-300 ease-in-out ${toggle ? "left-0" : "left-[900px] md:left-[1000px] lg:hidden "}   p-6  flex flex-col space-y-4  rounded-lg   top-[50px] bg-gray-500 border-black border-2 border-dotted text-white font-semibold   w-full h-auto text-2xl capitalize`}>
-        <li onClick={()=>setToggle(false)}><a href="#about">about</a></li>
-        <li onClick={()=>setToggle(false)}><a href="#experiences">Experience</a></li>
-        <li onClick={()=>setToggle(false)}><a href="#projects">projects</a></li>
-        <li onClick={()=>setToggle(false)}><a className='text-slate-500 px-6 bg-white  py-1 rounded-xl font-semibold ' href="#contact">contact</a></li>
+      <ul className={` absolute duration-300 ease-in-out ${toggle ? "left-0" : "left-[900px] md:left-[1000px] lg:hidden "}   py-8 px-4  flex flex-col space-y-4  rounded-lg   top-[50px] bg-gray-500  text-white font-semibold   w-full h-auto text-2xl `}>
+        <li  onClick={()=>setToggle(false)}><a className='hover:bg-gray-400 rounded-xl py-1 px-4' href="#about">about</a></li>
+        <li  onClick={()=>setToggle(false)}><a className='hover:bg-gray-400 rounded-xl py-1 px-4' href="#experiences">Experience</a></li>
+        <li  onClick={()=>setToggle(false)}><a className='hover:bg-gray-400 rounded-xl py-1 px-4' href="#projects">projects</a></li>
+        <li  onClick={()=>setToggle(false)}><a className='text-slate-500 px-6 bg-white  py-1 rounded-xl font-semibold ' href="#contact">contact</a></li>
       </ul>
 
     </div>
