@@ -1,7 +1,17 @@
 import React from 'react'
-
-
+import dashboard from "../assets/dashboard.png"
+import rental from "../assets/rental.png"
+import banking from "../assets/banking.png"
+import commerce from "../assets/commerce.png"
 function Projects() {
+
+
+    let projects=[
+        {name:"Claims Management",image:dashboard,github:"",demo:""},
+        {name:"Car Rental",image:rental,github:"",demo:""},
+        {name:"E-banking",image:banking,github:"",demo:""},
+        {name:"E-commerce",image:commerce,github:"",demo:""},
+    ]
 
 
 
@@ -17,117 +27,36 @@ function Projects() {
             </div>
             <div className='max-w-screen h-auto grid grid-flow-row gap-8  md:grid-cols-2  lg:px-[7rem] lg:gap-y-9 xl:px-[8rem]  xl:gap-x-14  '>
                 {/* Porject 1 */}
-                <div className='max-w-screen py-6 space-y-3  border-gray-500  border-2  px-[6vw] md:px-5 rounded-3xl border-solid h-auto grid grid-flow-row'>
-                    <div className='max-w-screen h-[35vh] md:h-[280px] '>
-                        <img className='rounded-2xl w-full h-full' src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                {projects.map((project,index) => (
+                    <div key={index} className='max-w-screen py-6 space-y-3  border-gray-500  border-2  px-[6vw] md:px-5 rounded-3xl border-solid h-auto grid grid-flow-row'>
+                        <div className='max-w-screen h-[35vh] md:h-[280px] '>
+                            <img className='rounded-2xl w-full h-full border-2 border-solid border-gray-400' src={project.image} alt="" />
+                        </div>
+                        <h1 className='text-center font-bold text-3xl'>{project.name}</h1>
+                        <div className="max-w-screen h-auto grid grid-cols-2 gap-x-4">
+                            <button
+                                onClick={() =>
+                                    window.open("https://github.com/hosnidotech123", "_blank", "noopener,noreferrer")
+                                }
+                                className="border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in border-2 border-solid rounded-full py-2 capitalize font-semibold text-gray-800"
+                            >
+                                Github
+                            </button>
+                            <button
+                                onClick={() =>alert("coming soon...")
+                                }
+                                className="border-gray-500 hover:bg-gray-500 hover:text-white border-2 border-solid rounded-full py-2 transition ease-in capitalize font-semibold text-gray-800"
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+
+
+
                     </div>
-                    <h1 className='text-center font-bold text-3xl'>Project one</h1>
-                    <div className="max-w-screen h-auto grid grid-cols-2 gap-x-4">
-                        <button
-                            onClick={() =>
-                                window.open("https://www.geeksforgeeks.org/reactjs-usenavigate-hook/", "_blank", "noopener,noreferrer")
-                            }
-                            className="border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in border-2 border-solid rounded-full py-2 capitalize font-semibold text-gray-800"
-                        >
-                            GitHub
-                        </button>
-                        <button
-                            onClick={() =>
-                                window.open("https://www.geeksforgeeks.org/reactjs-usenavigate-hook/", "_blank", "noopener,noreferrer")
-                            }
-                            className="border-gray-500 hover:bg-gray-500 hover:text-white border-2 border-solid rounded-full py-2 transition ease-in capitalize font-semibold text-gray-800"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
+                ))}
 
 
-
-                </div>
-
-                <div className='max-w-screen py-6 space-y-3 md:px-5  border-gray-500  border-2  px-[6vw] rounded-3xl border-solid h-auto grid grid-flow-row'>
-                    <div className='max-w-screen h-[35vh] md:h-[280px] '>
-                        <img className='rounded-2xl w-full h-full' src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                    </div>
-                    <h1 className='text-center font-bold text-3xl'>Project one</h1>
-                    <div className="max-w-screen h-auto grid grid-cols-2 gap-x-4">
-                        <button
-                            onClick={() =>
-                                window.open("https://www.geeksforgeeks.org/reactjs-usenavigate-hook/", "_blank", "noopener,noreferrer")
-                            }
-                            className="border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in border-2 border-solid rounded-full py-2 capitalize font-semibold text-gray-800"
-                        >
-                            GitHub
-                        </button>
-                        <button
-                            onClick={() =>
-                                window.open("https://www.geeksforgeeks.org/reactjs-usenavigate-hook/", "_blank", "noopener,noreferrer")
-                            }
-                            className="border-gray-500 hover:bg-gray-500 hover:text-white border-2 border-solid rounded-full py-2 transition ease-in capitalize font-semibold text-gray-800"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
-
-
-
-                </div>
-
-                <div className='max-w-screen py-6 space-y-3 md:px-5 border-gray-500  border-2  px-[6vw] rounded-3xl border-solid h-auto grid grid-flow-row'>
-                    <div className='max-w-screen h-[35vh] md:h-[280px] '>
-                        <img className='rounded-2xl w-full h-full' src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                    </div>
-                    <h1 className='text-center font-bold text-3xl'>Project one</h1>
-                    <div className="max-w-screen h-auto grid grid-cols-2 gap-x-4">
-                        <button
-                            onClick={() =>
-                                window.open("https://www.geeksforgeeks.org/reactjs-usenavigate-hook/", "_blank", "noopener,noreferrer")
-                            }
-                            className="border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in border-2 border-solid rounded-full py-2 capitalize font-semibold text-gray-800"
-                        >
-                            GitHub
-                        </button>
-                        <button
-                            onClick={() =>
-                                window.open("https://www.geeksforgeeks.org/reactjs-usenavigate-hook/", "_blank", "noopener,noreferrer")
-                            }
-                            className="border-gray-500 hover:bg-gray-500 hover:text-white border-2 border-solid rounded-full py-2 transition ease-in capitalize font-semibold text-gray-800"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
-
-
-
-                </div>
-
-                <div className='max-w-screen py-6 space-y-3 md:px-5 border-gray-500  border-2  px-[6vw] rounded-3xl border-solid h-auto grid grid-flow-row'>
-                    <div className='max-w-screen h-[35vh] md:h-[280px] '>
-                        <img className='rounded-2xl w-full h-full' src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                    </div>
-                    <h1 className='text-center font-bold text-3xl'>Project one</h1>
-                    <div className="max-w-screen h-auto grid grid-cols-2 gap-x-4">
-                        <button
-                            onClick={() =>
-                                window.open("https://www.geeksforgeeks.org/reactjs-usenavigate-hook/", "_blank", "noopener,noreferrer")
-                            }
-                            className="border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in border-2 border-solid rounded-full py-2 capitalize font-semibold text-gray-800"
-                        >
-                            GitHub
-                        </button>
-                        <button
-                            onClick={() =>
-                                window.open("https://www.geeksforgeeks.org/reactjs-usenavigate-hook/", "_blank", "noopener,noreferrer")
-                            }
-                            className="border-gray-500 hover:bg-gray-500 hover:text-white border-2 border-solid rounded-full py-2 transition ease-in capitalize font-semibold text-gray-800"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
-
-
-
-                </div>
 
 
 
