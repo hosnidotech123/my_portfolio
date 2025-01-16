@@ -1,6 +1,6 @@
 import React from 'react'
 import avatar from "../assets/man.jpeg"
-import me from "../assets/me.jpg"
+import about from "../assets/about.png"
 
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
         <div className='max-w-screen relative '  >
             <a href="#experiences"><svg className='absolute right-0 cursor-pointer' stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="40px" width="40px" xmlns="http://www.w3.org/2000/svg"><path d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z"></path><a href="#experiences"></a> </svg></a> 
           <h1 className='capitalize text-xl text-center text-gray-500'>get to know more</h1>
-            <h1 className='text-5xl font-semibold text-center capitalize mb-9'>about me</h1>
+            <h1 className='text-5xl font-semibold text-center uppercase mt-4 mb-9'>about me</h1>
             <div className='flex  flex-col  items-center md:space-y-0 space-y-4 lg:mt-[6rem] md:grid md:grid-cols-2  md:items-start lg:space-y-0  gap-4 lg:gap-x-9  max-w-screen h-auto '>
                 <div  className='lg:order-2 md:order-2 grid gap-y-4 items-center  max-w-screen    lg:max-w-2/3 lg:h-auto lg:gap-y-0  xl:max-w-2/3    '>
                     <div    className='lg:grid  gap-x-3    grid text-center items-center md:grid-rows-2 lg:grid-row-2  gap-y-4 lg:gap-y-6'>
@@ -48,7 +48,7 @@ Passionate about innovation and motivated by challenges, I particularly enjoy so
                 </div>
 
                 <div className='max-w-screen   lg:right-0  md:h-full overflow-hidden rounded-3xl lg:max-w-1/3 xl:max-w-1/3   md:max-w-full'>
-                  <img className='w-full object-cover hover:scale-[1.2] transition-all ease-out  rounded-3xl h-full ' src={avatar} alt="..." />
+                  <img className='w-full object-cover hover:scale-[1.2] transition-all ease-out  rounded-3xl h-full ' src={about} alt="..." />
                 </div>
 
             </div>

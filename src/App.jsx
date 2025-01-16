@@ -7,7 +7,7 @@ import About from './Components/About'
 import Experience from './Components/Experience'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
-
+import ContactMe from './Components/ContactMe'
 
 
 
@@ -69,7 +69,7 @@ function App() {
             <h1 className='capitalize text-xl text-center text-gray-500'>get in touch</h1>
             <h1 className='text-5xl font-semibold text-center capitalize '>Contact me</h1>
           </div>
-          <Contact />
+          <ContactMe />
           <footer className='text-center mt-7 font-semibold'>Copyright &copy; {new Date().getFullYear()} All rights reserved</footer>
 
         </section>

@@ -29,9 +29,7 @@ function Contact() {
         <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div className="lg:col-span-2 lg:py-12">
             <p className="max-w-xl text-lg">
-              At the same time, the fact that we are wholly owned and totally independent from
-              manufacturer and other group control gives you confidence that we will only recommend what
-              is right for you.
+            Let's build something extraordinary together! Whether you have a vision for a groundbreaking project, need a reliable full-stack engineer to bring your ideas to life, or just want to explore innovative solutions, I’m here to help. With expertise in modern web technologies and a commitment to delivering excellence, I can turn your concepts into reality. Don’t hesitate reach out today, and let’s create the future, one line of code at a time!
             </p>
 
             <div className="mt-8 font-semibold">

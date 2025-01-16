@@ -5,6 +5,9 @@ export default {
 
   theme: {
   	extend: {
+		backgroundImage:{
+			mailgradient: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)',
+		},
   		fontFamily: {
   			valorax: [
   				'valorax',

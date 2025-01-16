@@ -7,10 +7,10 @@ function Projects() {
 
 
     let projects=[
-        {name:"Claims Management",image:dashboard,github:"",demo:""},
-        {name:"Car Rental",image:rental,github:"",demo:""},
-        {name:"E-banking",image:banking,github:"",demo:""},
-        {name:"E-commerce",image:commerce,github:"",demo:""},
+        {name:"Claims Management",image:dashboard,github:"https://github.com/hosnidotech123/dashboard_pfe",live:""},
+        {name:"Car Rental",image:rental,github:"",live:""},
+        {name:"Digital Banking",image:banking,github:"https://github.com/hosnidotech123/Digital_Banking",live:""},
+        {name:"E-commerce",image:commerce,github:"https://github.com/hosnidotech123/ecommerce_react_express",live:""},
     ]
 
 
@@ -23,7 +23,7 @@ function Projects() {
 
             <div className='text-center mb-4 flex flex-col  '>
                 <h1 className='capitalize text-xl text-center text-gray-500'>browse my recent</h1>
-                <h1 className='text-6xl font-semibold text-center capitalize mb-9'>projects</h1>
+                <h1 className='text-6xl font-semibold text-center uppercase mt-4 mb-9'>projects</h1>
             </div>
             <div className='max-w-screen h-auto grid grid-flow-row gap-8  md:grid-cols-2  lg:px-[7rem] lg:gap-y-9 xl:px-[8rem]  xl:gap-x-14  '>
                 {/* Porject 1 */}
@@ -36,7 +36,7 @@ function Projects() {
                         <div className="max-w-screen h-auto grid grid-cols-2 gap-x-4">
                             <button
                                 onClick={() =>
-                                    window.open("https://github.com/hosnidotech123", "_blank", "noopener,noreferrer")
+                                    window.open(`${project.github===""?"https://github.com/hosnidotech123":project.github}`, "_blank", "noopener,noreferrer")
                                 }
                                 className="border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in border-2 border-solid rounded-full py-2 capitalize font-semibold text-gray-800"
                             >
