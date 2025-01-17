@@ -5,9 +5,9 @@ function Navbar() {
   let [toggle, setToggle] = useState(false)
 
   return (
-    <div className='relative flex items-center justify-between  font-RobotoCondensed uppercase' >
-      <h2 className='font-valorax text-3xl  content md:text-[2.40rem]'><a href="/">Hosni<span className='font-bold '>.</span>tech</a></h2>
-      <ul className='hidden font-RobotoCondensed lg:grid lg:grid-flow-col lg:items-center font-semibold lg:gap-x-8 text-2xl '>
+    <div className='relative flex items-center justify-between   uppercase' >
+      <h2 className='font-jersey text-3xl font-bold  content md:text-[2.50rem]'><a href="/">Hosni<span className='font-bold '>.</span>tech</a></h2>
+      <ul className='hidden  lg:grid lg:grid-flow-col lg:items-center font-semibold lg:gap-x-8 text-2xl '>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#about">about</a></li>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#experiences">Experience</a></li>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#projects">projects</a></li>

@@ -12,7 +12,11 @@ export default {
   			valorax: [
   				'valorax',
   				'sans-serif'
-  			]
+  			],
+			  jersey: [
+				'jersey',
+				'sans-serif'
+			]
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

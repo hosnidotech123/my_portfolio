@@ -27,6 +27,15 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'jersey';
+    src: url('/src/assets/fonts/Jersey.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 
 .content{
   background-clip: text;
