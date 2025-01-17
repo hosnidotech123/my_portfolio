@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Components/Navbar'
-import HeroSection from './Components/HeroSection'
-import Navbars from './Components/Navbars'
+
+
 import Hero from './Components/Hero'
 import About from './Components/About'
 import Experience from './Components/Experience'
 import Projects from './Components/Projects'
-import Contact from './Components/Contact'
 import ContactMe from './Components/ContactMe'
 
 
@@ -70,7 +69,7 @@ function App() {
             <h1 className='text-5xl font-semibold text-center uppercase mt-4'>Contact me</h1>
           </div>
           <ContactMe />
-          <footer className='text-center mt-7 font-semibold'>Copyright &copy; {new Date().getFullYear()} All rights reserved</footer>
+          <footer className='text-center mt-7 font-semibold'>Copyrights &copy; {new Date().getFullYear()} All rights reserved</footer>
 
         </section>
 

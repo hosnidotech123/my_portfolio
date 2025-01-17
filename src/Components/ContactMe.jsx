@@ -21,7 +21,7 @@ function ContactMe() {
             </p>
 
             <div className="  font-semibold my-4" >
-              <a href="#" className="text-2xl font-bold text-pink-600">06 06 06 06 06</a>
+              <a href="#" className="text-2xl font-bold text-pink-600">06 13 49 86 83</a>
 
               <address className="my-2 not-italic text-lg uppercase">Casablanca , Morocco</address>
             </div>

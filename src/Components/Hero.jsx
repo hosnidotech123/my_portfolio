@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from "../assets/man.jpeg"
+
 import me from "../assets/me.jpg"
 import TypingAnimation from "./ui/typing-animation"
 
@@ -11,7 +11,7 @@ function Hero() {
       <div className='flex flex-col space-y-4 my-2 lg:order-1 ' >
         <div className='block text-center items-center space-y-[-2vw]  md:space-y-[-2vw] lg:space-y-3 lg:mb-3'>
           <h2 className='text-3xl  font-bold capitalize md:text-4xl lg:text-3xl text-gray-500'><TypingAnimation>hello, im</TypingAnimation></h2>
-          <h2 className='  font-bold text-[12vw] md:text-[9vw] lg:text-5xl'><TypingAnimation delay={1000}>Hosni TariQ</TypingAnimation></h2>
+          <h2 className='  font-bold text-[12vw] md:text-[9vw] lg:text-5xl'><TypingAnimation delay={1000}>Hosni Tarik</TypingAnimation></h2>
           <h2 className='  text-gray-500 font-bold capitalize md:text-[8vw]  text-[9vw] lg:text-5xl'><TypingAnimation delay={2000}>full stack engineer</TypingAnimation></h2>
         </div>
 
