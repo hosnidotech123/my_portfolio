@@ -26,7 +26,7 @@ function About() {
                                 </defs>
                             </svg>
                             <h1 className='font-bold text-2xl'>Experience</h1>
-                            <h1 className='text-gray-500 font-semibold text-xl'>3+ years </h1>
+                            <h1 className='text-gray-500 font-semibold text-xl'>+3 years </h1>
                             <h1 className='capitalize text-gray-500 font-semibold text-xl'>Fullstack Developement </h1>
 
                         </div>
