@@ -7,7 +7,7 @@ function Experience() {
 
             <div className='text-center mb-4'>
                 <h1 className='capitalize text-xl text-center text-gray-500'>explore my</h1>
-                <h1 className='text-5xl font-semibold text-center uppercase mt-4 mb-9'>Experience</h1>
+                <h1 className='text-5xl font-semibold text-center uppercase mt-4 mb-9'>Tech Skills</h1>
             </div>
             <div className='max-w-screen h-auto flex flex-col space-y-8'>
                 {/* frontend box */}

@@ -9,7 +9,7 @@ function Navbar() {
       <h2 className='font-jersey text-3xl font-bold  content md:text-[2.50rem]'><a href="/">Hosni<span className='font-bold '>.</span>tech</a></h2>
       <ul className='hidden  lg:grid lg:grid-flow-col lg:items-center font-semibold lg:gap-x-8 text-2xl '>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#about">about</a></li>
-        <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#experiences">Experience</a></li>
+        <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#skills">Skills</a></li>
         <li className='text-black hover:text-gray-500 transition-all ease-in-out duration-300'><a href="#projects">projects</a></li>
         <li className='bg-slate-500 px-6 text-white cursor-pointer py-2 rounded-xl hover:bg-slate-400 transition ease-in-out duration-300'><a href="#contact">Hire Me</a></li>
       </ul>
@@ -19,7 +19,7 @@ function Navbar() {
 
       <ul className={` absolute duration-300 ease-in-out ${toggle ? "left-0" : "left-[900px] md:left-[1000px] lg:hidden "}   py-8 px-4  flex flex-col space-y-4  rounded-lg   top-[50px] bg-gray-500  text-white font-semibold   w-full h-auto text-2xl `}>
         <li  onClick={()=>setToggle(false)}><a className='hover:bg-gray-400 rounded-xl py-1 px-4' href="#about">about</a></li>
-        <li  onClick={()=>setToggle(false)}><a className='hover:bg-gray-400 rounded-xl py-1 px-4' href="#experiences">Experience</a></li>
+        <li  onClick={()=>setToggle(false)}><a className='hover:bg-gray-400 rounded-xl py-1 px-4' href="#skills">Skills</a></li>
         <li  onClick={()=>setToggle(false)}><a className='hover:bg-gray-400 rounded-xl py-1 px-4' href="#projects">projects</a></li>
         <li  onClick={()=>setToggle(false)}><a className='text-slate-500 px-6 bg-white  py-1 rounded-xl font-semibold ' href="#contact">Hire Me</a></li>
       </ul>

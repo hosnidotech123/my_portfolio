@@ -53,7 +53,7 @@ function App() {
         </section>
 
         {/* Section 3 */}
-        <section id='experiences' className="lg:h-screen  scroll-m-0   xl:scroll-m-[-6rem] 2xl:scroll-m-0">
+        <section id='skills' className="lg:h-screen  scroll-m-0   xl:scroll-m-[-6rem] 2xl:scroll-m-0">
           <Experience />
         </section>
 
