@@ -16,10 +16,10 @@ function Hero() {
         </div>
 
         <div className='grid grid-cols-2 md:gap-x-7 md:px-8 gap-x-4 md:text-xl'>
-          <button onClick={() => window.open('/files/hosni_tarik_.pdf', '_blank')} className='border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in bg-white text-gray-500 border-2 rounded-full border-solid  px-[4vw] py-2 font-bold'><a
-            href="/files/hosni_tarik_.pdf"
+          <button onClick={() => window.open('/files/hosni_tarik_25 pdf', '_blank')} className='border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in bg-white text-gray-500 border-2 rounded-full border-solid  px-[4vw] py-2 font-bold'><a
+            href="/files/hosni_tarik_25.pdf"
             target="_blank"
-            download="hosni_tarik_.pdf"
+            download="hosni_tarik_25.pdf"
             className="block w-full h-full text-inherit no-underline"
           >Download CV</a></button>
           <button className='bg-gray-500 hover:bg-white hover:border-gray-500 hover:border-solid hover:border-2 hover:text-gray-500 transition ease-in  rounded-full text-white px-[4vw]  py-2 font-bold'><a href="#contact">Contact Info</a></button>
