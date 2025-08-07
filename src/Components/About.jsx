@@ -42,7 +42,7 @@ function About() {
 
                     </div>
 
-                    <p  className=' text-center md:text-left md:pl-1 lg:text-left max-w-screen h-auto lg:pl-1  font-semibold '>I am a software engineer, recently graduated from EMSI Casablanca, with a specialization in fullstack development and expertise in web applications design and microservices architecture. I master technologies such as Next js, React js, TypeScript, Spring Boot, MongoDB, and many others.
+                    <p  className=' text-center md:text-left md:pl-1 lg:text-left max-w-screen h-auto lg:pl-1  font-semibold '>I am a software engineer, graduated from EMSI Casablanca, with a specialization in fullstack development and expertise in web applications design and microservices architecture. I master technologies such as Next js, React js, TypeScript, Spring Boot, MongoDB, and many others.
 
 Passionate about innovation and motivated by challenges, I particularly enjoy solving complex problems and working in dynamic teams.</p>
                 </div>
