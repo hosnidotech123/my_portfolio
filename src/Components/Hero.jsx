@@ -16,7 +16,7 @@ function Hero() {
         </div>
 
         <div className='grid grid-cols-2 md:gap-x-7 md:px-8 gap-x-4 md:text-xl'>
-          <button onClick={() => window.open('/files/hosni_tarik_25 pdf', '_blank')} className='border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in bg-white text-gray-500 border-2 rounded-full border-solid  px-[4vw] py-2 font-bold'><a
+          <button onClick={() => window.open('/files/hosni_tarik_25.pdf', '_blank')} className='border-gray-500 hover:bg-gray-500 hover:text-white transition ease-in bg-white text-gray-500 border-2 rounded-full border-solid  px-[4vw] py-2 font-bold'><a
             href="/files/hosni_tarik_25.pdf"
             target="_blank"
             download="hosni_tarik_25.pdf"
